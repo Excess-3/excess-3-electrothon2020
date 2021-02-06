@@ -693,6 +693,7 @@ body {
 .contact{
     background: linear-gradient(to left,  #e91ee3 , #03a9f4 );
     /* height: 500px; */
+    margin:10% 0 10% 0;
     width: 100%;
 }
 .contact .blur{
@@ -801,4 +802,11 @@ footer .Copyright{
   font-family: cursive;
   color: white;
   text-align: center;
+}
+
+
+@media (min-width:770px) and (max-width: 1536px) {
+.contact{
+  height: 500px;
+}
 }
