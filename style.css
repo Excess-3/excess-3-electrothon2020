@@ -688,6 +688,73 @@ body {
 
 /* section 3 ends here */
 
+
+/* Contact US section */
+.contact{
+    background: linear-gradient(to left,  #e91ee3 , #03a9f4 );
+    /* height: 500px; */
+    width: 100%;
+}
+.contact .blur{
+
+  position: relative;
+  top: 11%;
+  width: 80%;
+  justify-content: center;
+  margin: auto;
+  vertical-align: middle;
+  box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.contact h3{
+  text-align: center;
+  margin: 2%;
+  padding: 30px;
+}
+.contact .form-control{
+    border-radius:1rem;
+    padding: 10px;
+    margin: 15px;
+}
+.contact .contactBtn{
+  width: 50%;
+  border-radius: 1rem;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  margin: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition-duration: 0.4s;
+  /* background-color: #03a9f4; */
+}
+.contact .contactBtn:focus{
+  outline: none;
+}
+.contact .contactBtn:hover{
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+color: white;
+background-color: blue;
+}
+.contact .contactBtn:active {
+
+  box-shadow: 0 2px rgba(0,0,0,0.3);
+  transform: translateY(3px);
+}
+.contact textarea{
+  margin-right: 10px;
+}
+.contact .row{
+  padding-right: 4%;
+}
+
+
+
+
+
+
+
+
 /* footer Section */
 footer{
   padding: 10px;
